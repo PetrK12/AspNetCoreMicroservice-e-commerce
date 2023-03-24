@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Grpc.AspNetCore" Version="2.52.0" />
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="Npgsql" Version="7.0.2" />
@@ -22,10 +18,24 @@
     <None Remove="Models\" />
     <None Remove="Data\" />
     <None Remove="Extensions\" />
+    <None Remove="Protos\" />
+    <None Remove="Services\" />
+    <None Remove="Protos\discount.proto" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Data\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Protos\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Protobuf Include="Protos\discount.proto" GrpcServices="Server">
+      <Access></Access>
+      <ProtoCompile></ProtoCompile>
+      <CompileOutputs></CompileOutputs>
+      <OutputDir></OutputDir>
+      <Generator></Generator>
+    </Protobuf>
   </ItemGroup>
 </Project>
