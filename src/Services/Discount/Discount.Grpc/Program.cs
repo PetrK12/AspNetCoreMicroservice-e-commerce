@@ -1,4 +1,6 @@
-﻿using Discount.Grpc.Services;
+﻿using Discount.Grpc.Data;
+using Discount.Grpc.Extensions;
+using Discount.Grpc.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,8 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddGrpc();
-
+builder.Services.AddScoped<IDiscountRepository, DiscountRepository>();
 var app = builder.Build();
+app.MigrateDatabase<Program>();
 
 // Configure the HTTP request pipeline.
 app.MapGrpcService<GreeterService>();
