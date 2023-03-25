@@ -20,11 +20,13 @@
     <None Remove="Models\" />
     <None Remove="Microsoft.Extensions.Caching.StackExchangeRedis" />
     <None Remove="Newtonsoft.Json" />
+    <None Remove="GrpcServices\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Data\" />
     <Folder Include="Models\" />
+    <Folder Include="GrpcServices\" />
   </ItemGroup>
   <ItemGroup>
     <Protobuf Include="..\..\Discount\Discount.Grpc\Protos\discount.proto" GrpcServices="Client">
