@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ordering.Domain\Ordering.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Contracts\" />
+    <None Remove="Features\" />
+    <None Remove="Behaviours\" />
+    <None Remove="Contracts\Persistant\" />
+    <None Remove="Contracts\Infrastructure\" />
+    <None Remove="Models\" />
+    <None Remove="Mappings\" />
+    <None Remove="Features\Orders\" />
+    <None Remove="Features\Orders\Commands\" />
+    <None Remove="Features\Orders\Queries\" />
+    <None Remove="Features\Orders\Queries\GetOrdersList\" />
+    <None Remove="Features\Orders\Commands\Delete\" />
+    <None Remove="Features\Orders\Commands\Update\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contracts\" />
+    <Folder Include="Features\" />
+    <Folder Include="Behaviours\" />
+    <Folder Include="Contracts\Persistant\" />
+    <Folder Include="Contracts\Infrastructure\" />
+    <Folder Include="Models\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Features\Orders\" />
+    <Folder Include="Features\Orders\Commands\" />
+    <Folder Include="Features\Orders\Queries\" />
+    <Folder Include="Features\Orders\Queries\GetOrdersList\" />
+    <Folder Include="Features\Orders\Commands\Delete\" />
+    <Folder Include="Features\Orders\Commands\UpdateOrder\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.5.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+  </ItemGroup>
+</Project>
