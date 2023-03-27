@@ -13,11 +13,13 @@
     <None Remove="Persistance\" />
     <None Remove="Repositories\" />
     <None Remove="Mail\" />
+    <None Remove="Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Persistance\" />
     <Folder Include="Repositories\" />
     <Folder Include="Mail\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />

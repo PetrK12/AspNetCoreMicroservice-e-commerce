@@ -4,7 +4,7 @@ using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using Ordering.Application.Behaviours;
 
-namespace Ordering.Application
+namespace Ordering.Application.Exceptions
 {
 	public static class ApplicationServiceRegistration
 	{

@@ -24,6 +24,7 @@
     <None Remove="Features\Orders\Commands\Update\" />
     <None Remove="Features\Orders\Commands\CheckoutOrder\" />
     <None Remove="Exceptions\" />
+    <None Remove="Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contracts\" />
@@ -40,6 +41,7 @@
     <Folder Include="Features\Orders\Commands\UpdateOrder\" />
     <Folder Include="Features\Orders\Commands\CheckoutOrder\" />
     <Folder Include="Exceptions\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
