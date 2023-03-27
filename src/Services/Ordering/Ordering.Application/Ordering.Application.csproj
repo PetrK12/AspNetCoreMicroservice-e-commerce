@@ -23,6 +23,8 @@
     <None Remove="Features\Orders\Queries\GetOrdersList\" />
     <None Remove="Features\Orders\Commands\Delete\" />
     <None Remove="Features\Orders\Commands\Update\" />
+    <None Remove="Features\Orders\Commands\CheckoutOrder\" />
+    <None Remove="Exceptions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contracts\" />
@@ -38,6 +40,8 @@
     <Folder Include="Features\Orders\Queries\GetOrdersList\" />
     <Folder Include="Features\Orders\Commands\Delete\" />
     <Folder Include="Features\Orders\Commands\UpdateOrder\" />
+    <Folder Include="Features\Orders\Commands\CheckoutOrder\" />
+    <Folder Include="Exceptions\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
@@ -46,5 +50,6 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
   </ItemGroup>
 </Project>
