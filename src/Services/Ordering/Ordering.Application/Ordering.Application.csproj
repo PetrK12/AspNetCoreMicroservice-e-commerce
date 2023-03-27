@@ -21,7 +21,6 @@
     <None Remove="Features\Orders\Commands\" />
     <None Remove="Features\Orders\Queries\" />
     <None Remove="Features\Orders\Queries\GetOrdersList\" />
-    <None Remove="Features\Orders\Commands\Delete\" />
     <None Remove="Features\Orders\Commands\Update\" />
     <None Remove="Features\Orders\Commands\CheckoutOrder\" />
     <None Remove="Exceptions\" />
@@ -38,7 +37,6 @@
     <Folder Include="Features\Orders\Commands\" />
     <Folder Include="Features\Orders\Queries\" />
     <Folder Include="Features\Orders\Queries\GetOrdersList\" />
-    <Folder Include="Features\Orders\Commands\Delete\" />
     <Folder Include="Features\Orders\Commands\UpdateOrder\" />
     <Folder Include="Features\Orders\Commands\CheckoutOrder\" />
     <Folder Include="Exceptions\" />
