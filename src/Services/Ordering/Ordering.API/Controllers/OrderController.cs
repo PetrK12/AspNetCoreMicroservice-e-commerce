@@ -27,6 +27,7 @@ namespace Ordering.API.Controllers
             return Ok(orders);
         }
 
+        /*
         // testing
         [HttpPost(Name = "CheckoutOrder")]
         [ProducesResponseType((int)HttpStatusCode.OK)]
@@ -35,6 +36,7 @@ namespace Ordering.API.Controllers
             var result = await _mediator.Send(cmd);
             return Ok(result);
         }
+        */
 
         [HttpPut(Name = "UpdateOrder")]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
