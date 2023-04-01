@@ -144,3 +144,9 @@ services:
       - ordering.api
     ports:
       - "8005:80"
+  aspwebapp:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+

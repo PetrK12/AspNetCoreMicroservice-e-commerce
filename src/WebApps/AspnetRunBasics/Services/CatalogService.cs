@@ -46,6 +46,7 @@ namespace AspWebApp.Services
             var response = await _client.GetAsync($"/Catalog/GetProductByCategory/{category}");
             return await response.ReadContentAs<List<CatalogModel>>();
         }
+
     }
 }
 

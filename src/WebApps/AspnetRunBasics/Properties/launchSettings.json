@@ -7,7 +7,7 @@
     "AspnetRunBasics": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:13634",
+      "applicationUrl": "http://localhost:5006",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
