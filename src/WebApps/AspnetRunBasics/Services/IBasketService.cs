@@ -1,8 +1,8 @@
 ﻿using System;
-using AspnetRunBasics.Models;
+using AspWebApp.Models;
 using System.Threading.Tasks;
 
-namespace AspnetRunBasics.Services
+namespace AspWebApp.Services
 {
 	public interface IBasketService
 	{

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
-using AspnetRunBasics.Entities;
-using AspnetRunBasics.Repositories;
+using AspWebApp.Entities;
+using AspWebApp.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace AspnetRunBasics
+namespace AspWebApp
 {
     public class CartModel : PageModel
     {

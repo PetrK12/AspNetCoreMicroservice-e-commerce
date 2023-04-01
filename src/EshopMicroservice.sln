@@ -48,7 +48,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Aggregator", "ApiG
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{5B7DFBE8-5A71-48E4-98C7-7B0FC389AD2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspnetRunBasics", "WebApps\AspnetRunBasics\AspnetRunBasics.csproj", "{AE8DE5AD-E1BB-4A1A-8376-F80EAF0439BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspWebApp", "WebApps\AspnetRunBasics\AspWebApp.csproj", "{AE8DE5AD-E1BB-4A1A-8376-F80EAF0439BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

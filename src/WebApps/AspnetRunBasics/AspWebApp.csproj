@@ -6,6 +6,7 @@
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'AspnetRunBasics' " />
   <ItemGroup>
   </ItemGroup>
 

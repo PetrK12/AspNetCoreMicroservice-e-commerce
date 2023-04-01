@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using AspnetRunBasics.Models;
+using AspWebApp.Models;
 
-namespace AspnetRunBasics.Services
+namespace AspWebApp.Services
 {
 	public interface ICatalogService
 	{

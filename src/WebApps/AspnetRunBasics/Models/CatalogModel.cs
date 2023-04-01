@@ -1,5 +1,5 @@
 ﻿using System;
-namespace AspnetRunBasics.Models
+namespace AspWebApp.Models
 {
 	public class CatalogModel
 	{
