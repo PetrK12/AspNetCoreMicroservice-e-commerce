@@ -21,7 +21,7 @@ namespace Shopping.Aggregator.Services
 
         public async Task<CatalogModel> GetCatalog(string id)
         {
-            var response = await _client.GetAsync($"/api/v1/Catalog/{id}");
+            var response = await _client.GetAsync($"/api/v1/Catalog/{id.ToString()}");
             return await response.ReadContentAs<CatalogModel>();
         }
 
