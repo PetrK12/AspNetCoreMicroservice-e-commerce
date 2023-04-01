@@ -23,15 +23,17 @@ namespace Catalog.API.Controllers
         [ProducesResponseType(typeof(IEnumerable<Product>), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
+            _logger.LogInformation("GetList products call");
             var products = await _productRepository.GetProducts();
             return Ok(products);
         }
 
-        [HttpGet("{length(24)}", Name = "GetProduct")]
+        [HttpGet("{id:length(24)}", Name = "GetProduct")]
         [ProducesResponseType(typeof(Product), (int)HttpStatusCode.OK)]
         [ProducesResponseType(typeof(Product), (int)HttpStatusCode.NotFound)]
         public async Task<ActionResult<Product>> GetProductById(string id)
         {
+            _logger.LogInformation("Get product by id call");
             var product = await _productRepository.GetProduct(id);
             if (product == null)
             {
