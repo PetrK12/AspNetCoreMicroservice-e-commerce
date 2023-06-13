@@ -1,2 +1,2 @@
-# AspNetMicroservices
-AspNetMicroservices
+# AspNetCore eshop
+Created for studying purpose.
